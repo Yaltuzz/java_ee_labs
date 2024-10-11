@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                template="/WEB-INF/template/main.xhtml">
+
+    <f:metadata>
+        <f:viewParam name="id" value="#{officeView.id}" required="true"/>
+    </f:metadata>
+
+    <ui:define name="content">
+        <h:outputStylesheet library="office_center" name="css/office_center_view.css"/><!-- Automatically relocated to head. -->
+        <article class="text--justified">
+                    Name: <h:outputText value="#{officeView.office.name}"/>
+            <p></p>
+                    Room number: <h:outputText value="#{officeView.office.roomNumber}"/>
+            <p></p>
+                    Square meters: <h:outputText value="#{officeView.office.squareMeter}"/>
+        </article>
+    </ui:define>
+
+</ui:composition>

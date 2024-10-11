@@ -1,0 +1,8 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0     23 10/25/22, 15:33:18:867 CEST 10/25/22, 16:06:15:262 CEST javax.enterprise.event.ObserverException com.ibm.ws.webcontainer.webapp.WebApp.notifyServletContextCreated 1341
+                                                                            - /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_22.10.25_15.33.18.0.log
+     1     23 10/25/22, 15:33:19:178 CEST 10/25/22, 16:06:15:263 CEST javax.enterprise.event.ObserverException com.ibm.ws.webcontainer.webapp.WebApp.notifyServletContextCreated 1353
+                                                                            - /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_22.10.25_15.33.19.0.log
+------+------+---------------------------+---------------------------+---------------------------

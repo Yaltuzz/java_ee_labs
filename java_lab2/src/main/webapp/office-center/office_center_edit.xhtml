@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                template="/WEB-INF/template/main.xhtml">
+
+    <f:metadata>
+        <f:viewParam name="id" value="#{officeCenterEdit.id}" required="true"/>
+        <f:viewAction action="#{officeCenterEdit.init()}"/>
+    </f:metadata>
+
+    <ui:define name="content">
+        <h:outputStylesheet library="office_center" name="css/office_center_edit.css"/><!-- Automatically relocated to head. -->
+            <article class="text--justified">
+                <header><h2>Edit office center info</h2></header>
+                <h:form class="character__form">
+                    <h:outputLabel for="id" value="id:"/>
+                    <h:inputText class="ui-control ui-input" id="id" value="#{officeCenterEdit.officeCenter.id}"/>
+                    <h:outputLabel for="name" value="Name:"/>
+                    <h:inputText class="ui-control ui-input" id="name" value="#{officeCenterEdit.officeCenter.name}"/>
+                    <h:outputLabel for="address" value="Address:"/>
+                    <h:inputText class="ui-control ui-input" id="address" value="#{officeCenterEdit.officeCenter.address}"/>
+                    <h:outputLabel for="addressNumber" value="address number:"/>
+                    <h:inputTextarea class="ui-control" id="addressNumber" value="#{officeCenterEdit.officeCenter.addressNumber}"/>
+                    <h:commandButton class="ui-control ui-button" value="Update"
+                                     action="#{officeCenterEdit.saveAction()}"/>
+                </h:form>
+            </article>
+    </ui:define>
+
+</ui:composition>

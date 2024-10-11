@@ -1,0 +1,25 @@
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:586)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at com.ibm.ws.kernel.boot.internal.commands.ServerCommandClient.write(ServerCommandClient.java:107)
+	at com.ibm.ws.kernel.boot.internal.commands.ServerCommandClient.stopServer(ServerCommandClient.java:254)
+	at com.ibm.ws.kernel.boot.internal.commands.ProcessControlHelper.stop(ProcessControlHelper.java:99)
+	at com.ibm.ws.kernel.boot.Launcher.handleActions(Launcher.java:261)
+	at com.ibm.ws.kernel.boot.Launcher.createPlatform(Launcher.java:117)
+	at com.ibm.ws.kernel.boot.cmdline.EnvCheck.main(EnvCheck.java:59)
+	at com.ibm.ws.kernel.boot.cmdline.EnvCheck.main(EnvCheck.java:35)
+
+arg0=defaultServer
+arg1=--pid=
+arg2=--stop
+exit=1
+
+                 Java home:  /Users/janstopinski/Library/Java/JavaVirtualMachines/corretto-17.0.4.1/Contents/Home
+              Install root:  /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/
+          System libraries:  /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/lib/
+                 User root:  /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/
+                    Config:  /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/
+                    Output:  /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/
+

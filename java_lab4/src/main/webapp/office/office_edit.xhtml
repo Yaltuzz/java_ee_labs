@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                template="/WEB-INF/template/main.xhtml">
+
+    <f:metadata>
+        <f:viewParam name="id" value="#{officeEdit.id}" required="true"/>
+        <f:viewAction action="#{officeEdit.init()}"/>
+    </f:metadata>
+
+    <ui:define name="content">
+        <h:outputStylesheet library="office_center" name="css/office_center_edit.css"/><!-- Automatically relocated to head. -->
+        <article class="text--justified">
+            <header><h2>Edit office info</h2></header>
+            <h:form class="character__form">
+                <h:outputLabel for="id" value="id:"/>
+                <h:inputText class="ui-control ui-input" id="id" value="#{officeEdit.office.id}"/>
+                <h:outputLabel for="name" value="Name:"/>
+                <h:inputText class="ui-control ui-input" id="name" value="#{officeEdit.office.name}"/>
+                <h:outputLabel for="room" value="Room number:"/>
+                <h:inputText class="ui-control ui-input" id="room" value="#{officeEdit.office.roomNumber}"/>
+                <h:outputLabel for="meter" value="Square meters:"/>
+                <h:inputTextarea class="ui-control" id="meter" value="#{officeEdit.office.squareMeter}"/>
+                <h:commandButton class="ui-control ui-button" value="Update"
+                                 action="#{officeEdit.saveAction()}"/>
+            </h:form>
+        </article>
+    </ui:define>
+
+</ui:composition>

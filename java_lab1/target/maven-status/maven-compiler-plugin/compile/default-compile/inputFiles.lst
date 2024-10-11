@@ -1,0 +1,13 @@
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/datastore/DataStore.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/user/repository/UserRepository.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/user/entity/UserType.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/user/servlet/UserServlet.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/office/entity/Office.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/configuration/Initialize.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/serialization/CloningUtility.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/user/dto/GetUsersContract.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/officeCenter/entity/OfficeCenter.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/user/dto/GetUserResponse.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/user/servlet/PortraitServlet.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/user/service/UserService.java
+/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/java/pl/edu/pg/lab/user/entity/User.java

@@ -1,0 +1,76 @@
+********************************************************************************
+product = Open Liberty 22.0.0.10 (wlp-1.0.69.cl221020220912-1100)
+wlp.install.dir = /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/
+java.home = /Users/janstopinski/Library/Java/JavaVirtualMachines/corretto-17.0.4.1/Contents/Home
+java.version = 17.0.4.1
+java.runtime = OpenJDK Runtime Environment (17.0.4.1+9-LTS)
+os = Mac OS X (12.1; x86_64) (en_PL)
+process = 483@Jans-MacBook-Pro.local
+Classpath = /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/bin/tools/ws-server.jar
+Java Library path = /Users/janstopinski/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+********************************************************************************
+[10/18/22, 18:07:35:152 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[10/18/22, 18:07:35:812 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.036 seconds
+[10/18/22, 18:07:35:825 CEST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/18/22, 18:07:36:010 CEST] 0000001e com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[10/18/22, 18:07:36:432 CEST] 0000002f com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application LabJakartaEE-1.0-SNAPSHOT.
+[10/18/22, 18:07:36:434 CEST] 0000002f bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The LabJakartaEE-1.0-SNAPSHOT application is using the loose application definition at the /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/dropins/LabJakartaEE-1.0-SNAPSHOT.war.xml location.
+[10/18/22, 18:07:36:764 CEST] 0000002f com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[10/18/22, 18:07:36:805 CEST] 0000002f org.jboss.weld.Version                                       I WELD-000900: 3.1.9 (Final)
+[10/18/22, 18:07:37:470 CEST] 0000002f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: LabJakartaEE-1.0-SNAPSHOT.
+[10/18/22, 18:07:37:472 CEST] 0000002f com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module LabJakartaEE-1.0-SNAPSHOT has been bound to default_host.
+[10/18/22, 18:07:37:474 CEST] 0000002f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/LabJakartaEE-1.0-SNAPSHOT/
+[10/18/22, 18:07:37:492 CEST] 0000003a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/LabJakartaEE-1.0-SNAPSHOT
+[10/18/22, 18:07:37:506 CEST] 0000003a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/18/22, 18:07:37:534 CEST] 00000041 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[10/18/22, 18:07:37:638 CEST] 0000003a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application LabJakartaEE-1.0-SNAPSHOT started in 1.205 seconds.
+[10/18/22, 18:07:37:657 CEST] 00000027 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[10/18/22, 18:07:37:665 CEST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [cdi-2.0, jsonb-1.0, jsonp-1.1, servlet-4.0].
+[10/18/22, 18:07:37:666 CEST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 1.854 seconds.
+[10/18/22, 18:07:37:667 CEST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 2.891 seconds.
+[10/18/22, 18:07:41:969 CEST] 00000040 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/LabJakartaEE-1.0-SNAPSHOT/
+[10/18/22, 18:07:41:988 CEST] 00000040 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application LabJakartaEE-1.0-SNAPSHOT has stopped successfully.
+[10/18/22, 18:07:41:991 CEST] 00000040 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application LabJakartaEE-1.0-SNAPSHOT.
+[10/18/22, 18:07:41:992 CEST] 00000040 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The LabJakartaEE-1.0-SNAPSHOT application is using the loose application definition at the /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/dropins/LabJakartaEE-1.0-SNAPSHOT.war.xml location.
+[10/18/22, 18:07:42:187 CEST] 00000042 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[10/18/22, 18:07:42:204 CEST] 00000040 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: LabJakartaEE-1.0-SNAPSHOT.
+[10/18/22, 18:07:42:204 CEST] 00000040 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module LabJakartaEE-1.0-SNAPSHOT has been bound to default_host.
+[10/18/22, 18:07:42:205 CEST] 00000040 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/LabJakartaEE-1.0-SNAPSHOT/
+[10/18/22, 18:07:42:205 CEST] 0000002d com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/LabJakartaEE-1.0-SNAPSHOT
+[10/18/22, 18:07:42:206 CEST] 0000002d com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/18/22, 18:07:42:226 CEST] 00000029 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[10/18/22, 18:07:42:232 CEST] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application LabJakartaEE-1.0-SNAPSHOT updated in 0.240 seconds.
+[10/18/22, 18:08:12:561 CEST] 00000027 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [LabJakartaEE-1.0-SNAPSHOT] [/LabJakartaEE-1.0-SNAPSHOT] [pl.edu.pg.lab.user.servlet.UserServlet]: Initialization successful.
+[10/18/22, 18:08:42:005 CEST] 0000003e com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [LabJakartaEE-1.0-SNAPSHOT] [/LabJakartaEE-1.0-SNAPSHOT] [pl.edu.pg.lab.user.servlet.PortraitServlet]: Initialization successful.
+[10/18/22, 18:08:59:127 CEST] 00000046 SystemOut                                                    O present
+[10/18/22, 18:09:05:324 CEST] 0000004a SystemOut                                                    O present
+[10/18/22, 18:09:05:881 CEST] 00000046 SystemOut                                                    O present
+[10/18/22, 18:09:06:435 CEST] 00000027 SystemOut                                                    O present
+[10/18/22, 18:09:06:918 CEST] 0000004a SystemOut                                                    O present
+[10/18/22, 18:09:17:779 CEST] 00000046 SystemOut                                                    O present
+[10/18/22, 18:10:17:722 CEST] 00000047 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/LabJakartaEE-1.0-SNAPSHOT/
+[10/18/22, 18:10:17:723 CEST] 00000047 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [LabJakartaEE-1.0-SNAPSHOT] [/LabJakartaEE-1.0-SNAPSHOT] [pl.edu.pg.lab.user.servlet.PortraitServlet]: Destroy successful.
+[10/18/22, 18:10:17:724 CEST] 00000047 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [LabJakartaEE-1.0-SNAPSHOT] [/LabJakartaEE-1.0-SNAPSHOT] [pl.edu.pg.lab.user.servlet.UserServlet]: Destroy successful.
+[10/18/22, 18:10:17:729 CEST] 00000047 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application LabJakartaEE-1.0-SNAPSHOT has stopped successfully.
+[10/18/22, 18:10:17:732 CEST] 00000047 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application LabJakartaEE-1.0-SNAPSHOT.
+[10/18/22, 18:10:17:733 CEST] 00000047 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The LabJakartaEE-1.0-SNAPSHOT application is using the loose application definition at the /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/dropins/LabJakartaEE-1.0-SNAPSHOT.war.xml location.
+[10/18/22, 18:10:17:742 CEST] 0000003d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[10/18/22, 18:10:17:907 CEST] 00000047 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: LabJakartaEE-1.0-SNAPSHOT.
+[10/18/22, 18:10:17:907 CEST] 00000047 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module LabJakartaEE-1.0-SNAPSHOT has been bound to default_host.
+[10/18/22, 18:10:17:907 CEST] 00000047 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/LabJakartaEE-1.0-SNAPSHOT/
+[10/18/22, 18:10:17:908 CEST] 00000033 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/LabJakartaEE-1.0-SNAPSHOT
+[10/18/22, 18:10:17:908 CEST] 00000033 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/18/22, 18:10:17:929 CEST] 00000030 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[10/18/22, 18:10:17:938 CEST] 00000033 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application LabJakartaEE-1.0-SNAPSHOT updated in 0.205 seconds.
+[10/18/22, 18:10:21:064 CEST] 00000042 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [LabJakartaEE-1.0-SNAPSHOT] [/LabJakartaEE-1.0-SNAPSHOT] [pl.edu.pg.lab.user.servlet.PortraitServlet]: Initialization successful.
+[10/18/22, 18:10:21:067 CEST] 00000042 SystemOut                                                    O present
+[10/18/22, 18:10:21:763 CEST] 00000035 SystemOut                                                    O present
+[10/18/22, 18:10:22:415 CEST] 00000040 SystemOut                                                    O present
+[10/18/22, 18:10:31:350 CEST] 00000016 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: The server defaultServer is stopping because the JVM is exiting.
+[10/18/22, 18:10:31:355 CEST] 00000052 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[10/18/22, 18:10:31:359 CEST] 0000004a com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[10/18/22, 18:10:31:361 CEST] 0000004a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/LabJakartaEE-1.0-SNAPSHOT/
+[10/18/22, 18:10:31:364 CEST] 00000052 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[10/18/22, 18:10:31:394 CEST] 0000003a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application LabJakartaEE-1.0-SNAPSHOT has stopped successfully.
+[10/18/22, 18:10:31:754 CEST] 00000017 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Tuesday, October 18, 2022 at 6:10 PM. The server defaultServer is shutting down.
+[10/18/22, 18:10:31:881 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 2 minutes, 57.105 seconds.

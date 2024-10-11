@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      2 10/18/22, 17:44:10:416 CEST 10/18/22, 17:44:10:946 CEST javax.servlet.ServletException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1064
+                                                                            - /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_22.10.18_17.44.10.0.log
+------+------+---------------------------+---------------------------+---------------------------

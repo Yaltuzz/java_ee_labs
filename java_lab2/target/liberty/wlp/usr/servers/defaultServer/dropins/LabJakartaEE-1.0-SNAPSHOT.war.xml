@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="/Users/janstopinski/projects/jakartaEE/LabJakartaEE/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>

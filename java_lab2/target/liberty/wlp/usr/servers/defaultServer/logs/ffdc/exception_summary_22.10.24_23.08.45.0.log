@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1 10/24/22, 23:08:44:914 CEST 10/24/22, 23:08:44:914 CEST java.lang.NullPointerException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - /Users/janstopinski/projects/jakartaEE/LabJakartaEE/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_22.10.24_23.08.44.0.log
+------+------+---------------------------+---------------------------+---------------------------
